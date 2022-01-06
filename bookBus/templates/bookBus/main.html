@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <title>Tavara Travels</title>
+</head>
+<body>
+    <div id="bodyDiv">
+        <h1>Tavara Travels</h1>
+        
+        <article>
+            Welcome To Tavara Travels, we ensure your destination is worth the journey.
+            With destinations to all major cities around the country, we are the industry
+            best for your journey to and from at unbelievable prices.
+        </article>
+        <div class="buttons">
+            <a class="button" href="#">Contact Us</a>
+            <a class="button" href="{% url 'booking' %}">Book a Ride</a>
+        </div>
+        <div id="routes">
+            <h2>Our Routes</h2>
+            
+        </div>
+    </div>
+</body>
+</html>
